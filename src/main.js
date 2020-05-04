@@ -1,8 +1,26 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
+import router from "./router";
 
-Vue.config.productionTip = false
+import MaterialKit from "./plugins/material-kit";
+
+Vue.config.productionTip = false;
+
+Vue.use(MaterialKit);
+
+const NavbarStore = {
+  showNavbar: false
+};
+
+Vue.mixin({
+  data() {
+    return {
+      NavbarStore
+    };
+  }
+});
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+  router,
+  render: h => h(App)
+}).$mount("#app");
