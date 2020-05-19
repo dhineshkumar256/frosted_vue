@@ -9,11 +9,12 @@
     <div class="md-toolbar-row md-collapse-lateral">
       <div class="md-toolbar-section-start">
         <!-- <img src="../assets/cup_alone/brand_name.png" alt="logo"> -->
-        <!-- <h3 class="md-title">Frosted Crown.</h3> -->
+        <a href="#/"><h2 class="md-title navTitle">Frosted Crown.</h2></a>
         <div class="md-layout md-gutter" :class="`md-alignment-center-center`">
           <div class="md-layout-item md-size-100">
             <a href="#/">
-              <img src="../assets/cup_alone/brand_name.png" alt="logo">
+              <!-- <h2>Frosted Crown.</h2> -->
+              <!-- <img src="../assets/cup_alone/brand_name.png" alt="logo"> -->
             </a>
           </div>
         </div>
@@ -119,3 +120,9 @@ export default {
   }
 };
 </script>
+<style scoped>
+.navTitle {
+  font-family: 'Monoton', cursive;
+  font-size: 30px !important;
+}
+</style>

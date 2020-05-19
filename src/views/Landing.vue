@@ -3,64 +3,63 @@
     <parallax class="section page-header header-filter" :style="headerStyle">
       <div class="container">
         <div class="md-layout">
-          <div
-            class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100"
-          >
-            <!-- <h1 class="title">Your Story Starts With Us.</h1> -->
-            <!-- <h4>
-              Every landing page needs a small description after the big bold
-              title, that's why we added this text here. Add here all the
-              information that can make you or your product create the first
-              impression.
-            </h4> -->
+          <div class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100">
+            <h1 class="title landing_letters">The Ultimate Pastery Store.</h1>
             <br />
-            
           </div>
         </div>
       </div>
     </parallax>
     <div class="main main-raised">
+      <!-- Talk About Content !-->
       <div class="section">
         <div class="container">
-          <div class="md-layout">
-            <div
-              class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center"
-            >
-              <h2 class="title text-center">Let's talk About Us</h2>
-              <h5 class="description">
-                This is the paragraph where you can write more details about
-                your product. Keep you user engaged by providing meaningful
-                information. Remember that by this time, the user is curious,
-                otherwise he wouldn't scroll to get here. Add a button if you
-                want the user to see more.
-              </h5>
-            </div>
-          </div>
           <div class="features text-center">
             <div class="md-layout" :class="`md-alignment-center-center`">
+              <div class="md-layout-item md-medium-size-100 md-small-size-100">
+                <h1 class="title text-center">Let's talk About Us</h1>
+              </div>
+              <div class="md-layout-item md-medium-size-100 md-small-size-100">
+                <div class="description">
+                  <h4 class="talkTextSub">Between working and Bakeschooling from home, every single day just jumbles together into a big blob of days. I’ve actually resorted now on making Cakes.
+                  From chocolate cake and brownies to more loaves of banana bread than I can count, I have been eagerly baking at The Frosted Crown and it was time to whip up one of our favorite sweet treats – Butter Cream Cake! </h4>
+
+                  <h2 class="talkText">I hope you’re not rolling your eyes at The Frosted Crown.</h2>
+
+                  <h4 class="talkTextSub">Admittedly, everyone are pretty obsessed with The Frosted Crown. And I’m not even remotely sorry about it.
+                  In my mind, The Frosted Crown are synonymous with every occasion...
+                  I would totally nosh on one every. single. day. if I could.</h4>
+
+                  <h4 class="talkTextSub">The beauty of Butter cream cake is that they only require a handful of ingredients and they come together in minutes. And, hello – it’s Butter Cream cake that would require you to turn on your taste buds – how could you possibly resist?</h4>
+
+                  <h4 class="talkTextSub">For this Butter Cream cake version, I used fresh butter with no essence or emulsifier added to really give these cream cakes an absolutely huge pop of flavor.</h4>
+
+                  <h4 class="talkTextSub">A cake frosted with home made butter cream and home made fruit compote.
+                  When I say you’re gonna love these Cakes and make them more than once this summer, I mean it.</h4>
+
+                  <h2 class="talkText">You can always trust our dairy products and our quality and natural flavors will always be top notch.</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main md-elevation-24">
+      <!-- Meet Our Chef Content !-->
+      <div class="section text-center">
+        <div class="container">
+          <div class="features text-center">
+            <div class="md-layout" :class="`md-alignment-center-center`">
+              <div class="md-layout-item md-medium-size-100 md-small-size-100">
+                <h1 class="title text-center">Meet Our Chef</h1>
+              </div>
               <div class="md-layout-item md-medium-size-50 md-small-size-100">
                 <div class="info">
-                  <div class="icon icon-info">
-                    <img src="../assets/logo/man_logo.svg" alt="logo">
-                    <!-- <md-icon>sentiment_satisfied_alt</md-icon> -->
-                  </div>
                   <h2>Sivanraj Kartheesan</h2>
                   <h4 class="info-title">CEO and Founder</h4>
                 </div>
               </div>
-              <!-- <div class="md-layout-item md-medium-size-33 md-small-size-100">
-                <div class="info">
-                  <div class="icon icon-success">
-                    <md-icon>verified_user</md-icon>
-                  </div>
-                  <h4 class="info-title">Verified Users</h4>
-                  <p>
-                    Divide details about your product or agency work into parts.
-                    Write a few lines about each one. A paragraph describing a
-                    feature will be enough.
-                  </p>
-                </div>
-              </div> -->
               <div class="md-layout-item md-medium-size-50 md-small-size-100">
                 <md-card>
                   <md-card-media-cover>
@@ -74,12 +73,59 @@
           </div>
         </div>
       </div>
+      <!-- Best From Us Content !-->
       <div class="section text-center">
         <div class="container">
-          <h2 class="title">Here is our Menu</h2>
-          <div class="team">
+            <h1 class="title">Best Products From Us</h1>
             <div class="md-layout">
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
+                <md-card md-with-hover>
+                  <md-card-media>
+                    <img :src="menu_item1" alt="People">
+                  </md-card-media>
+                  <md-card-content>
+                    PRODUCT ONE
+                  </md-card-content>
+                </md-card>
+              </div>
+              <div class="md-layout-item md-medium-size-33 md-small-size-100">
+                <md-card md-with-hover>
+                  <md-card-media>
+                    <img :src="menu_item1" alt="People">
+                  </md-card-media>
+                  <md-card-content>
+                    PRODUCT TWO
+                  </md-card-content>
+                </md-card>
+              </div>
+              <div class="md-layout-item md-medium-size-33 md-small-size-100">
+                <md-card md-with-hover>
+                  <md-card-media>
+                    <img :src="menu_item1" alt="People">
+                  </md-card-media>
+                  <md-card-content>
+                    PRODUCT THREE
+                  </md-card-content>
+                </md-card>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!-- Quote Content !-->
+      <div class="section text-center">
+        <div class="container">
+          <h1 id="quote">
+            <span>“</span> Baking is any labor at all, it's a labor of love. A love that gets passed from generation to generation. <span>”</span></h1>
+          <h4>-Regina Brett</h4>
+        </div>
+      </div>
+      <!-- Menu Content !-->
+      <div class="section text-center">
+        <div class="container">
+          <h1 class="title">Here is our Menu</h1>
+          <div class="team">
+            <div class="md-layout">
+              <div class="md-layout-item md-medium-size-50 md-small-size-100">
                 <div class="team-player">
                   <md-card class="md-card-plain">
                     <div class="md-layout-item md-size-50 mx-auto">
@@ -89,11 +135,11 @@
                         class="img-raised rounded-circle img-fluid"
                       />
                     </div>
-                    <h4 class="card-title">
+                    <h3 class="card-title">
                       Cup Cakes
                       <br />
-                      <small class="card-description text-muted">something about cup cakes</small>
-                    </h4>
+                      <small class="card-description text-muted">You Never tasted something like before!!</small>
+                    </h3>
 
                     <md-card-content>
                       <md-list class="md-triple-line">
@@ -102,9 +148,8 @@
                           :key="cmenu"
                         >
                           <div class="md-list-item-text">
-                            <span>{{cmenu.cupcake_name}}</span>
-                            <span>{{cmenu.cupcake_description}}</span>
-                            <p>{{cmenu.cupcake_FC_special}}</p>
+                            <span class="menuname text-center">{{cmenu.cupcake_name}}</span>
+                            <span class="menudescription text-center">{{cmenu.cupcake_description}}</span>
                           </div>
                         </md-list-item>
                       </md-list>
@@ -116,7 +161,7 @@
                   </md-card>
                 </div>
               </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
+              <div class="md-layout-item md-medium-size-50 md-small-size-100">
                 <div class="team-player">
                   <md-card class="md-card-plain">
                     <div class="md-layout-item md-size-50 mx-auto">
@@ -126,13 +171,11 @@
                         class="img-raised rounded-circle img-fluid"
                       />
                     </div>
-                    <h4 class="card-title">
+                    <h3 class="card-title">
                       Birthday Cakes
                       <br />
-                      <small class="card-description text-muted"
-                        >Something about Birthday cakes</small
-                      >
-                    </h4>
+                      <small class="card-description text-muted">A Party without cake is really just a Meeting!!</small>
+                    </h3>
 
                     <md-card-content>
                       <md-list class="md-triple-line">
@@ -141,9 +184,8 @@
                           :key="bcmenu"
                         >
                           <div class="md-list-item-text">
-                            <span>{{bcmenu.birthdaycakes_name}}</span>
-                            <span>{{bcmenu.birthdaycakes_description}}</span>
-                            <p>{{bcmenu.birthdaycakes_FC_special}}</p>
+                            <span class="menuname text-center">{{bcmenu.birthdaycakes_name}}</span>
+                            <span class="menudescription text-center">{{bcmenu.birthdaycakes_description}}</span>
                           </div>
                         </md-list-item>
                       </md-list>
@@ -155,7 +197,7 @@
                   </md-card>
                 </div>
               </div>
-              <div class="md-layout-item md-medium-size-33 md-small-size-100">
+              <div class="md-layout-item md-medium-size-50 md-small-size-100">
                 <div class="team-player">
                   <md-card class="md-card-plain">
                     <div class="md-layout-item md-size-50 mx-auto">
@@ -165,22 +207,57 @@
                         class="img-raised rounded-circle img-fluid"
                       />
                     </div>
-                    <h4 class="card-title">
-                      Breades & Cookies
+                    <h3 class="card-title">
+                      Breades & Buns
                       <br />
-                      <small class="card-description text-muted">something About Breads and Cookies</small>
-                    </h4>
+                      <small class="card-description text-muted">Happiness is Home Made Breads</small>
+                    </h3>
 
                     <md-card-content>
                       <md-list class="md-triple-line">
                         <md-list-item 
-                          v-for="breadcookiemenu in bread_and_cookies_menu"
-                          :key="breadcookiemenu"
+                          v-for="breadbunsmenu in bread_and_Buns_menu"
+                          :key="breadbunsmenu"
                         >
                           <div class="md-list-item-text">
-                            <span>{{breadcookiemenu.bread_and_cookies_name}}</span>
-                            <span>{{breadcookiemenu.bread_and_cookies_description}}</span>
-                            <p>{{breadcookiemenu.bread_and_cookies_FC_special}}</p>
+                            <h4 class="menuname text-center">{{breadbunsmenu.bread_and_Buns_name}}</h4>
+                            <span class="menudescription text-center">{{breadbunsmenu.bread_and_Buns_description}}</span>
+                          </div>
+                        </md-list-item>
+                      </md-list>
+                    </md-card-content>
+
+                    <md-card-actions class="text-center">
+                      <md-button href="#/cookiesandbreads">Gallery</md-button>
+                    </md-card-actions>
+                  </md-card>
+                </div>
+              </div>
+              <div class="md-layout-item md-medium-size-50 md-small-size-100">
+                <div class="team-player">
+                  <md-card class="md-card-plain">
+                    <div class="md-layout-item md-size-50 mx-auto">
+                      <img
+                        :src="menu_item3"
+                        alt="Thumbnail Image"
+                        class="img-raised rounded-circle img-fluid"
+                      />
+                    </div>
+                    <h3 class="card-title">
+                      Cookies & Macarons
+                      <br />
+                      <small class="card-description text-muted">something About Breads and Cookies</small>
+                    </h3>
+
+                    <md-card-content>
+                      <md-list class="md-triple-line">
+                        <md-list-item 
+                          v-for="CookiesAndMacarons in CookiesAndMacaronsMenu"
+                          :key="CookiesAndMacarons"
+                        >
+                          <div class="md-list-item-text">
+                            <h4 class="menuname text-center">{{CookiesAndMacarons.macrons_name}}</h4>
+                            <span class="menudescription text-center">{{CookiesAndMacarons.macrons_description}}</span>
                           </div>
                         </md-list-item>
                       </md-list>
@@ -196,14 +273,15 @@
           </div>
         </div>
       </div>
+      <!-- Contact Us Content !-->
       <div class="section section-contacts">
         <div class="container">
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
-              <h2 class="text-center title">Grab Your Pastries. Contact Us</h2>
-              <h4 class="text-center description">
-                Content to contact with us
-              </h4>
+              <h1 class="text-center title">Grab Your Pastries. <br/>Contact Us</h1>
+              <h3 class="text-center description">
+                Some Pastries Not included in menus will be made on Order.
+              </h3>
               <form class="contact-form">
                 <div class="md-layout">
                   <div class="md-layout-item md-size-50">
@@ -225,7 +303,7 @@
                 </md-field>
                 <div class="md-layout">
                   <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Send Message</md-button>
+                    <md-button>Send Message</md-button>
                   </div>
                 </div>
               </form>
@@ -287,47 +365,85 @@ export default {
       ],
       birthdaycakes_menu: [
         {
-          birthdaycakes_name: "Birthday Cake name One",
-          birthdaycakes_description: "Birthday Cake One Description",
-          birthdaycakes_FC_special: "This Birthday Cake is this type of special in our shop!!"
+          birthdaycakes_name: "Dreamy Vanilla Cake",
+          birthdaycakes_description: "It is flavoured with the goodness of vanilla extract. It is moist,Crumbly and most importantly its delicious.",
         },
         {
-          birthdaycakes_name: "Birthday Cake name Two",
-          birthdaycakes_description: "Birthday Cake Two Description",
-          birthdaycakes_FC_special: "This Birthday Cake is this type of special in our shop!!"
+          birthdaycakes_name: "Chocoholic",
+          birthdaycakes_description: "Chocoholic is the Chocolate Truffle cake is the perfect cake for birthdays, it's has the moist sponge, delicate flavor and smooth cream on the inside and out",
         },
         {
-          birthdaycakes_name: "Birthday Cake name Three",
-          birthdaycakes_description: "Birthday Cake Three Description",
-          birthdaycakes_FC_special: "This Birthday Cake is this type of special in our shop!!"
+          birthdaycakes_name: "Bloody Redvelvet",
+          birthdaycakes_description: "Bloody Redvelvet cake is red and Scarlet Colored Chocolate layer cake, layered with Cream Cheese Frosting.",
         },
         {
-          birthdaycakes_name: "Birthday Cake name Four",
-          birthdaycakes_description: "Birthday Cake Four Description",
-          birthdaycakes_FC_special: "This Birthday Cake is this type of special in our shop!!"
+          birthdaycakes_name: "Simply Orange",
+          birthdaycakes_description: "orange cake is rich in flavor and definitely a melt in mouth cake. The taste will last in you tongue than a normal cake could would.",
+        },
+        {
+          birthdaycakes_name: "world of Berries",
+          birthdaycakes_description: "Cake mixed with triple berries( strawberry, blueberry and raspberry. The flavor will take you to the core of sweetness where you'll taste every single berries in every bite...",
         },
       ],
-      bread_and_cookies_menu: [
+      bread_and_Buns_menu: [
         {
-          bread_and_cookies_name: "Cookie name One",
-          bread_and_cookies_description: "Cookie One Description",
-          bread_and_cookies_FC_special: "This Cookie is this type of special in our shop!!"
+          bread_and_Buns_name: "Banana Cake",
+          bread_and_Buns_description: "The banana cake is moist and fluffy and is the perfect complement for your evening tea. On top of being healthy, it is  guaranteed to satisfy your sweet tooth",
         },
         {
-          bread_and_cookies_name: "Cookie name Two",
-          bread_and_cookies_description: "Cookie Two Description",
-          bread_and_cookies_FC_special: "This Cookie is this type of special in our shop!!"
+          bread_and_Buns_name: "Mr. Lemony",
+          bread_and_Buns_description: "well this is sweet not sour. Taste it and bet you'll end up licking your hand and look for more of these..",
         },
         {
-          bread_and_cookies_name: "Cookie name Three",
-          bread_and_cookies_description: "Cookie Three Description",
-          bread_and_cookies_FC_special: "This Cookie is this type of special in our shop!!"
+          bread_and_Buns_name: "Ginger Spice Cake ",
+          bread_and_Buns_description: "Its combined with sweet and spice with flavor of cinnamon. Could there be anything more delicious snack for tea..",
         },
         {
-          bread_and_cookies_name: "Bread name Four",
-          bread_and_cookies_description: "Bread Four Description",
-          bread_and_cookies_FC_special: "This Bread is this type of special in our shop!!"
+          bread_and_Buns_name: "Hokkaido Milk Bread",
+          bread_and_Buns_description: "You'll find this soft and spongy.. It'll melt in ur mouth completely. It's sweet and yummy. The taste will make u forget the regular bread",
         },
+        {
+          bread_and_Buns_name: "Burger Buns",
+          bread_and_Buns_description: "when u find a place like ours for home made burger buns All you have to do is buy some buns and make a good burger for ur kids.. The kids are gonna fall in love with the burgers"
+        },
+        {
+          bread_and_Buns_name:"Apple Crumble Cake",
+          bread_and_Buns_description: "Perfect tea time cake. The cake is filled with freshly sliced apples. Every single bite will give a fresh taste of the fruit"
+        }
+      ],
+      CookiesAndMacaronsMenu: [
+        {
+          macrons_name: "French Macaron",
+          macrons_description: "French Macaron is a smooth, Crispy shell and a moist, chewy interior which tastes flavourful"
+        },
+        {
+          macrons_name:"Chocolate Chip Cookie",
+          macrons_description: "Chewy cookie with goey chocolate chips.. It is sweet and yummy will be a sweet treat to your tummy"
+        },
+        {
+          macrons_name:"Peanut Butter Cookie",
+          macrons_description: "The cookie is full of peanut butter aroma. The taste will take you to the paradise of sweetness"
+        },
+        {
+          macrons_name:"Nutter cookie",
+          macrons_description:"Made of delicious Nuttella. It's crunchy and crispy. The taste will make you fall in love with the cookie"
+        },
+        {
+          macrons_name:"Coconut cookie",
+          macrons_description:"Coconut cookie is 100% natural cookie... Every single bite will give you the goodness of Coconut with yummilicious taste.."
+        },
+        {
+          macrons_name: "Almond Butter Cookie",
+          macrons_description: "The taste of this cookie will b buttery with natural almond butter aroma. It's crispy and bit salty but we bet you'll never stop loving this cookie. BEST COOKIE FOR TEA TIME SNACK"
+        },
+        {
+          macrons_name: "Cashew Butter Cookie",
+          macrons_description: "Made of Cashew butter. It's sweet, It's crispy and bit salty but we bet you'll never stop loving this cookie. BEST COOKIE FOR TEA TIME SNACK"
+        },
+        {
+          macrons_name: "Walnut Butter Cookie",
+          macrons_description: "Walnut Butter cookie the smell of this cookie Itself will take you to a different place... Wonder it's place like willi wonka's factory.. "
+        }
       ]
     }
   },
@@ -346,11 +462,47 @@ export default {
   display: flex;
   justify-content: center !important;
 }
+.menuname{
+  color: #ab1a23 !important;
+  font-weight: bold !important;
+}
+.menudescription{
+  white-space: break-spaces !important;
+}
+.landing_letters {
+  color: #ab1a23 !important;
+  font-family: 'Alice', serif;
+}
+.talkText{
+  font-family: 'Caveat', cursive;
+  color: #ab1a23 !important;
+  font-size: 45px !important;
+}
+.talkTextSub{
+  font-family: 'Tangerine', cursive;
+  font-size: 40px !important;
+  color: black !important;
+}
 .contact-form {
   margin-top: 30px;
 }
-
+.md-button{
+  background-color: #ab1a23 !important;
+}
+.md-button:hover{
+  background-color: #4e171a !important;
+}
 .md-has-textarea + .md-layout {
   margin-top: 15px;
+}
+#quote::after{
+  position: absolute;
+    content: "";
+    background: #ab1a23;
+    height: 2px;
+    width: 70px;
+    bottom: 0;
+    margin-left: -35px;
+    left: 50%;
 }
 </style>
