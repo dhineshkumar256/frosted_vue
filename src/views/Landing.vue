@@ -4,7 +4,7 @@
       <div class="container">
         <div class="md-layout">
           <div class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100">
-            <h1 class="title landing_letters">The Ultimate Pastery Store.</h1>
+            <h1 class="title landing_letters">The Ultimate Pastry Store.</h1>
             <br />
           </div>
         </div>
