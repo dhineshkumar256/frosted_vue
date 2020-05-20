@@ -19,7 +19,7 @@
                 </div>
                 <div class="name">
                   <h3 class="title">HERE THE CUP CAKES FEAST !!</h3>
-                  <h4>“When you share a CUP CAKE, tpu share LOVE”</h4>
+                  <h4>“When you share a CUP CAKE, you share LOVE”</h4>
                   <h6 class="text-center">― James Beard</h6>
                 </div>
               </div>

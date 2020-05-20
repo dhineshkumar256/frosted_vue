@@ -238,7 +238,7 @@
                   <md-card class="md-card-plain">
                     <div class="md-layout-item md-size-50 mx-auto">
                       <img
-                        :src="menu_item3"
+                        :src="menu_item4"
                         alt="Thumbnail Image"
                         class="img-raised rounded-circle img-fluid"
                       />
@@ -246,7 +246,7 @@
                     <h3 class="card-title">
                       Cookies & Macarons
                       <br />
-                      <small class="card-description text-muted">something About Breads and Cookies</small>
+                      <small class="card-description text-muted">Crack the Cookies & Macarons Explore the Taste!!</small>
                     </h3>
 
                     <md-card-content>
@@ -334,6 +334,10 @@ export default {
     menu_item3: {
       type: String,
       default: require("@/assets/img/cookies_and_breads/18_a.jpg")
+    },
+    menu_item4: {
+      type: String,
+      default: require("@/assets/img/backgrounds/cookie_ava.jpg")
     }
   },
   data() {
@@ -343,24 +347,20 @@ export default {
       message: null,
       cupcake_menu: [
         {
-          cupcake_name: "Cake name One",
-          cupcake_description: "Cake One Description",
-          cupcake_FC_special: "This cup cake is this type of special in our shop!!"
+          cupcake_name: "Tropical pineapple",
+          cupcake_description: "Cupcake filled with fresh compotes and deliciously satisfactory to your sweet tooth",
         },
         {
-          cupcake_name: "Cake name Two",
-          cupcake_description: "Cake Two Description",
-          cupcake_FC_special: "This cup cake is this type of special in our shop!!"
+          cupcake_name: "Creamy Chocolate cupcake",
+          cupcake_description: "The frosting is creamy, it will definitely melt in your mouth and in the end it will sure be a finger licking creamier cupcake",
         },
         {
           cupcake_name: "Cake name Three",
           cupcake_description: "Cake Three Description",
-          cupcake_FC_special: "This cup cake is this type of special in our shop!!"
         },
         {
           cupcake_name: "Cake name Four",
-          cupcake_description: "Cake Four Description",
-          cupcake_FC_special: "This cup cake is this type of special in our shop!!"
+          cupcake_description: "Cake Four Description"
         },
       ],
       birthdaycakes_menu: [
