@@ -76,35 +76,36 @@
       <!-- Best From Us Content !-->
       <div class="section text-center">
         <div class="container">
-            <h1 class="title">Best Products From Us</h1>
+            <h1 class="title test">Best Products From Us</h1>
             <div class="md-layout">
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <md-card md-with-hover>
                   <md-card-media>
-                    <img :src="menu_item1" alt="People">
+                    <img :src="bestproduct1" alt="cookie">
                   </md-card-media>
                   <md-card-content>
-                    PRODUCT ONE
+                    Today we will live in the moment unless it’s unpleasant in which case we will need a  bite of Chewy Cookie filled with nuttella inside and sugar sprinkles on the top.
                   </md-card-content>
                 </md-card>
               </div>
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <md-card md-with-hover>
                   <md-card-media>
-                    <img :src="menu_item1" alt="People">
+                    <img :src="bestproduct2" alt="choclate">
                   </md-card-media>
                   <md-card-content>
-                    PRODUCT TWO
+                    Looking for happiness when you’re in tea break? <br/>
+                    Here’s our treat of home made tea cake and breads.
                   </md-card-content>
                 </md-card>
               </div>
               <div class="md-layout-item md-medium-size-33 md-small-size-100">
                 <md-card md-with-hover>
                   <md-card-media>
-                    <img :src="menu_item1" alt="People">
+                    <img :src="bestproduct3" alt="bread">
                   </md-card-media>
                   <md-card-content>
-                    PRODUCT THREE
+                    Go to the counter and take a *Blondie* off the rack,  drizzle some chocolates and bite into it... Heavenly? And We make the heaven possible...
                   </md-card-content>
                 </md-card>
               </div>
@@ -208,7 +209,7 @@
                       />
                     </div>
                     <h3 class="card-title">
-                      Breades & Buns
+                      Breads & Tea Cakes
                       <br />
                       <small class="card-description text-muted">Happiness is Home Made Breads</small>
                     </h3>
@@ -338,6 +339,18 @@ export default {
     menu_item4: {
       type: String,
       default: require("@/assets/img/backgrounds/cookie_ava.jpg")
+    },
+    bestproduct1: {
+      type: String,
+      default: require("@/assets/img/b3/cookie_50.jpg")
+    },
+    bestproduct2: {
+      type: String,
+      default: require("@/assets/img/b3/choclate_50.jpg")
+    },
+    bestproduct3: {
+      type: String,
+      default: require("@/assets/img/b3/bread_50.jpg")
     }
   },
   data() {
@@ -347,7 +360,7 @@ export default {
       message: null,
       cupcake_menu: [
         {
-          cupcake_name: "Tropical pineapple",
+          cupcake_name: "Tropical Fruits",
           cupcake_description: "Cupcake filled with fresh compotes and deliciously satisfactory to your sweet tooth",
         },
         {
@@ -355,13 +368,17 @@ export default {
           cupcake_description: "The frosting is creamy, it will definitely melt in your mouth and in the end it will sure be a finger licking creamier cupcake",
         },
         {
-          cupcake_name: "Cake name Three",
-          cupcake_description: "Cake Three Description",
+          cupcake_name: "Butter cream cupcake",
+          cupcake_description: "A cupcake frosted with fresh homemade butter cream. The cream is soft and cake is spongy. A bite would take you to a world of cupcakes",
         },
         {
-          cupcake_name: "Cake name Four",
-          cupcake_description: "Cake Four Description"
+          cupcake_name: "Red Velvet Cupcake",
+          cupcake_description: "Red Velvet cupcake is frosted with fresh cream cheese.  Life is wonderful so eat the damn redvelvet cup cake."
         },
+        {
+          cupcake_name: "Vanilla creme cupcake",
+          cupcake_description: "Creme Brûlée Cupcakes are made with a moist vanilla cupcake and pastry cream filling, then topped with fresh cream and Caramel"
+        }
       ],
       birthdaycakes_menu: [
         {
@@ -409,6 +426,14 @@ export default {
         {
           bread_and_Buns_name:"Apple Crumble Cake",
           bread_and_Buns_description: "Perfect tea time cake. The cake is filled with freshly sliced apples. Every single bite will give a fresh taste of the fruit"
+        },
+        {
+          bread_and_Buns_name:"Aloo buns",
+          bread_and_Buns_description: "Fresh home made buns stuffed with freshly cooked aloo masala. The flavour of this buns will make you have more."
+        },
+        {
+          bread_and_Buns_name:"Cheesy Garlic Bun",
+          bread_and_Buns_description: "Cheesy Garlic Buns are stuffed ithu fresh cheese and finely chopped garlic mixed with herbs. Its soft and easy to chew."
         }
       ],
       CookiesAndMacaronsMenu: [
@@ -470,8 +495,13 @@ export default {
   white-space: break-spaces !important;
 }
 .landing_letters {
-  color: #ab1a23 !important;
+  color: #fd0213d0 !important;
   font-family: 'Alice', serif;
+  border-style: double !important;
+  padding: 10px !important;
+  border-width: 10px !important;
+  border-color: papayawhip !important;
+  font-size: 70px !important;
 }
 .talkText{
   font-family: 'Caveat', cursive;
@@ -497,12 +527,12 @@ export default {
 }
 #quote::after{
   position: absolute;
-    content: "";
-    background: #ab1a23;
-    height: 2px;
-    width: 70px;
-    bottom: 0;
-    margin-left: -35px;
-    left: 50%;
+  content: "";
+  background: #ab1a23;
+  height: 2px;
+  width: 70px;
+  bottom: 0;
+  margin-left: -35px;
+  left: 50%;
 }
 </style>

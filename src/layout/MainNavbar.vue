@@ -8,16 +8,8 @@
   >
     <div class="md-toolbar-row md-collapse-lateral">
       <div class="md-toolbar-section-start">
-        <!-- <img src="../assets/cup_alone/brand_name.png" alt="logo"> -->
+        <p class="onlythe">THE</p>
         <a href="#/"><h2 class="md-title navTitle">Frosted Crown.</h2></a>
-        <div class="md-layout md-gutter" :class="`md-alignment-center-center`">
-          <div class="md-layout-item md-size-100">
-            <a href="#/">
-              <!-- <h2>Frosted Crown.</h2> -->
-              <!-- <img src="../assets/cup_alone/brand_name.png" alt="logo"> -->
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </md-toolbar>
@@ -124,5 +116,8 @@ export default {
 .navTitle {
   font-family: 'Monoton', cursive;
   font-size: 30px !important;
+}
+.onlythe {
+  font-weight: bold !important;
 }
 </style>

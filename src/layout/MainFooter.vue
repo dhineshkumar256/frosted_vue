@@ -7,7 +7,16 @@
     <div class="container">
       <nav>
         <ul>
-          <li>Follow US</li>
+          <li>
+            <a href="https://instagram.com/the_frosted_crown?igshid=19w8vzxzydzr" target="_blank">
+              <img :src="followicon.facebook">
+            </a>
+          </li>&nbsp;
+          <li>
+            <a href="https://instagram.com/the_frosted_crown?igshid=19w8vzxzydzr" target="_blank">
+              <img :src="followicon.instagram">
+            </a>
+          </li>
         </ul>
       </nav>
       <div class="copyright">
@@ -24,9 +33,12 @@ export default {
   },
   data() {
     return {
-      year: new Date().getFullYear()
+      year: new Date().getFullYear(),
+      followicon : {
+        facebook: require("@/assets/icon/facebook-logo.png"),
+        instagram: require("@/assets/icon/insta-logo.png")
+      }
     };
   }
 };
 </script>
-<style></style>
